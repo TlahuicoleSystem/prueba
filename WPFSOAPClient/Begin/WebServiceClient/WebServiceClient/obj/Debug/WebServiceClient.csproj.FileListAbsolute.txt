@@ -1,0 +1,39 @@
+C:\Users\David\Documents\Visual Studio 2012\Projects\WebServiceClient\WebServiceClient\bin\Debug\WebServiceClient.exe.config
+C:\Users\David\Documents\Visual Studio 2012\Projects\WebServiceClient\WebServiceClient\bin\Debug\WebServiceClient.exe
+C:\Users\David\Documents\Visual Studio 2012\Projects\WebServiceClient\WebServiceClient\bin\Debug\WebServiceClient.pdb
+C:\Users\David\Documents\Visual Studio 2012\Projects\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\Visual Studio 2012\Projects\WebServiceClient\WebServiceClient\obj\Debug\MainWindow.baml
+C:\Users\David\Documents\Visual Studio 2012\Projects\WebServiceClient\WebServiceClient\obj\Debug\MainWindow.g.cs
+C:\Users\David\Documents\Visual Studio 2012\Projects\WebServiceClient\WebServiceClient\obj\Debug\App.g.cs
+C:\Users\David\Documents\Visual Studio 2012\Projects\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient_MarkupCompile.cache
+C:\Users\David\Documents\Visual Studio 2012\Projects\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.g.resources
+C:\Users\David\Documents\Visual Studio 2012\Projects\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.Properties.Resources.resources
+C:\Users\David\Documents\Visual Studio 2012\Projects\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.csproj.GenerateResource.Cache
+C:\Users\David\Documents\Visual Studio 2012\Projects\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.exe
+C:\Users\David\Documents\Visual Studio 2012\Projects\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.pdb
+D:\1A Principales\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\bin\Debug\WebServiceClient.exe.config
+D:\1A Principales\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.exe
+D:\1A Principales\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.pdb
+D:\1A Principales\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\bin\Debug\WebServiceClient.exe
+D:\1A Principales\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\bin\Debug\WebServiceClient.pdb
+D:\1A Principales\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.csprojResolveAssemblyReference.cache
+D:\1A Principales\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\MainWindow.baml
+D:\1A Principales\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\MainWindow.g.cs
+D:\1A Principales\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\App.g.cs
+D:\1A Principales\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient_MarkupCompile.cache
+D:\1A Principales\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.g.resources
+D:\1A Principales\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.Properties.Resources.resources
+D:\1A Principales\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.csproj.GenerateResource.Cache
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\bin\Debug\WebServiceClient.exe.config
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.exe
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.pdb
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\bin\Debug\WebServiceClient.exe
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\bin\Debug\WebServiceClient.pdb
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.csprojResolveAssemblyReference.cache
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\MainWindow.baml
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\MainWindow.g.cs
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\App.g.cs
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient_MarkupCompile.cache
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.g.resources
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.Properties.Resources.resources
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WPFSOAPClient\Begin\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.csproj.GenerateResource.Cache

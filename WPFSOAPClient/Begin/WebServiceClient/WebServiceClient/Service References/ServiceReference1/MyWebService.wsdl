@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://jomich.com/example/webservice" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://jomich.com/example/webservice" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://jomich.com/example/webservice">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="sumar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="value1" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="value2" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="sumarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="sumarResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="restar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="value1" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="value2" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="restarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="restarResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mul">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="value1" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="value2" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mulResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="mulResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="div">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="value1" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="value2" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="divResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="divResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="potencia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="value1" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="value2" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="potenciaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="potenciaResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="raiz">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="value1" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="raizResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="raizResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="sumarSoapIn">
+    <wsdl:part name="parameters" element="tns:sumar" />
+  </wsdl:message>
+  <wsdl:message name="sumarSoapOut">
+    <wsdl:part name="parameters" element="tns:sumarResponse" />
+  </wsdl:message>
+  <wsdl:message name="restarSoapIn">
+    <wsdl:part name="parameters" element="tns:restar" />
+  </wsdl:message>
+  <wsdl:message name="restarSoapOut">
+    <wsdl:part name="parameters" element="tns:restarResponse" />
+  </wsdl:message>
+  <wsdl:message name="mulSoapIn">
+    <wsdl:part name="parameters" element="tns:mul" />
+  </wsdl:message>
+  <wsdl:message name="mulSoapOut">
+    <wsdl:part name="parameters" element="tns:mulResponse" />
+  </wsdl:message>
+  <wsdl:message name="divSoapIn">
+    <wsdl:part name="parameters" element="tns:div" />
+  </wsdl:message>
+  <wsdl:message name="divSoapOut">
+    <wsdl:part name="parameters" element="tns:divResponse" />
+  </wsdl:message>
+  <wsdl:message name="potenciaSoapIn">
+    <wsdl:part name="parameters" element="tns:potencia" />
+  </wsdl:message>
+  <wsdl:message name="potenciaSoapOut">
+    <wsdl:part name="parameters" element="tns:potenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="raizSoapIn">
+    <wsdl:part name="parameters" element="tns:raiz" />
+  </wsdl:message>
+  <wsdl:message name="raizSoapOut">
+    <wsdl:part name="parameters" element="tns:raizResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MyWebServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="sumar">
+      <wsdl:input message="tns:sumarSoapIn" />
+      <wsdl:output message="tns:sumarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="restar">
+      <wsdl:input message="tns:restarSoapIn" />
+      <wsdl:output message="tns:restarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="mul">
+      <wsdl:input message="tns:mulSoapIn" />
+      <wsdl:output message="tns:mulSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="div">
+      <wsdl:input message="tns:divSoapIn" />
+      <wsdl:output message="tns:divSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="potencia">
+      <wsdl:input message="tns:potenciaSoapIn" />
+      <wsdl:output message="tns:potenciaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="raiz">
+      <wsdl:input message="tns:raizSoapIn" />
+      <wsdl:output message="tns:raizSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MyWebServiceSoap" type="tns:MyWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://jomich.com/example/webservice/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sumar">
+      <soap:operation soapAction="http://jomich.com/example/webservice/sumar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="restar">
+      <soap:operation soapAction="http://jomich.com/example/webservice/restar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mul">
+      <soap:operation soapAction="http://jomich.com/example/webservice/mul" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="div">
+      <soap:operation soapAction="http://jomich.com/example/webservice/div" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="potencia">
+      <soap:operation soapAction="http://jomich.com/example/webservice/potencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="raiz">
+      <soap:operation soapAction="http://jomich.com/example/webservice/raiz" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MyWebServiceSoap12" type="tns:MyWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://jomich.com/example/webservice/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sumar">
+      <soap12:operation soapAction="http://jomich.com/example/webservice/sumar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="restar">
+      <soap12:operation soapAction="http://jomich.com/example/webservice/restar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mul">
+      <soap12:operation soapAction="http://jomich.com/example/webservice/mul" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="div">
+      <soap12:operation soapAction="http://jomich.com/example/webservice/div" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="potencia">
+      <soap12:operation soapAction="http://jomich.com/example/webservice/potencia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="raiz">
+      <soap12:operation soapAction="http://jomich.com/example/webservice/raiz" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MyWebService">
+    <wsdl:port name="MyWebServiceSoap" binding="tns:MyWebServiceSoap">
+      <soap:address location="http://localhost:49259/MyWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MyWebServiceSoap12" binding="tns:MyWebServiceSoap12">
+      <soap12:address location="http://localhost:49259/MyWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

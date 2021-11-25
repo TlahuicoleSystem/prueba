@@ -1,0 +1,16 @@
+c:\users\david\documents\visual studio 2012\Projects\WebApplication\WebApplication\bin\WebApplication.dll
+c:\users\david\documents\visual studio 2012\Projects\WebApplication\WebApplication\bin\WebApplication.pdb
+c:\users\david\documents\visual studio 2012\Projects\WebApplication\WebApplication\obj\Debug\WebApplication.dll
+c:\users\david\documents\visual studio 2012\Projects\WebApplication\WebApplication\obj\Debug\WebApplication.pdb
+D:\1A Principales\Ejercicios\SOAP\WebServiceApplication\Solution\WebApplication\WebApplication\bin\WebApplication.dll.config
+D:\1A Principales\Ejercicios\SOAP\WebServiceApplication\Solution\WebApplication\WebApplication\bin\WebApplication.dll
+D:\1A Principales\Ejercicios\SOAP\WebServiceApplication\Solution\WebApplication\WebApplication\bin\WebApplication.pdb
+D:\1A Principales\Ejercicios\SOAP\WebServiceApplication\Solution\WebApplication\WebApplication\obj\Debug\WebApplication.csprojResolveAssemblyReference.cache
+D:\1A Principales\Ejercicios\SOAP\WebServiceApplication\Solution\WebApplication\WebApplication\obj\Debug\WebApplication.dll
+D:\1A Principales\Ejercicios\SOAP\WebServiceApplication\Solution\WebApplication\WebApplication\obj\Debug\WebApplication.pdb
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WebServiceApplication\Solution\WebApplication\WebApplication\bin\WebApplication.dll.config
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WebServiceApplication\Solution\WebApplication\WebApplication\bin\WebApplication.dll
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WebServiceApplication\Solution\WebApplication\WebApplication\bin\WebApplication.pdb
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WebServiceApplication\Solution\WebApplication\WebApplication\obj\Debug\WebApplication.csprojResolveAssemblyReference.cache
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WebServiceApplication\Solution\WebApplication\WebApplication\obj\Debug\WebApplication.dll
+C:\Users\gbj_0\Downloads\Ejercicios\Ejercicios\SOAP\WebServiceApplication\Solution\WebApplication\WebApplication\obj\Debug\WebApplication.pdb
